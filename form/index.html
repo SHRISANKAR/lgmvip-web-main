@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration from</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="form-title">Student Registration Form</h1>
+        <form action="#" id="myForm">
+            <div class="main">
+
+                <div class="uib">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required/>
+                </div>
+
+                
+
+                <div class="uib">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required/>
+                </div>
+
+                <div class="uib">
+                    <label for="phonenumber">Phone No:</label>
+                    <input type="text" id="phonenumber" name="phonenumber">
+                </div>
+
+                <div class="uib">
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" name="website" required/>                 
+                </div>
+
+                <div class="uib" id="img">
+                    <label for="image">Upload Image:</label>
+                    <input type="file" id="img" name="image" required/>
+                </div>
+
+              
+            </div>
+
+            <div class="gender-details">
+                <span class="gt">Gender - </span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="Male" value="Male" requierd/>
+                    <label for="Male">Male</label>
+
+                    <input type="radio" name="gender" id="Female" value="Female" requierd/>
+                    <label for="Female">Female</label>
+
+                    <input type="radio" name="gender" id="Other" value="Other" requierd/>
+                    <label for="Other">Other</label>
+                </div>
+            </div>
+
+            <div class="skills" id="skills">
+                <span class="gt">Skills - </span>
+                <div class="gender-category">
+                    <input type="checkbox" name="skills" id="HTML" value="HTML">
+                    <label for="HTML">HTML</label>
+
+                    <input type="checkbox" name="skills" id="CSS" value="CSS">
+                    <label for="CSS">CSS</label>
+
+                    <input type="checkbox" name="skills" id="JAVASCRIPT" value="JAVASCRIPT">
+                    <label for="JAVASCRIPT">JAVASCRIPT</label>
+
+                    <input type="checkbox" name="skills" id="REACTJS" value="REACTJS">
+                    <label for="REACTJS">REACTJS</label>
+                </div>
+            </div>
+
+            <div class="form-submit-btn">
+                <input type="submit" value="Register">
+              </div>
+        </form>
+    </div>
+
+    <div class="Enrolled_Students coloumn" id="std_result">
+                
+        <!-- <h2>Enrolled Students</h2> -->
+
+        <div class="result row" id="t_row">
+
+            <div class="data coloumn">
+                <p>Description</p>
+            </div>
+
+            <div class="image coloumn">
+                <p>Image</p>
+            </div>
+
+        </div>
+
+</div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
